@@ -10,7 +10,7 @@ const CotactsForm = ({}) => {
     const form = event.target;
     const contact = {
       name: form.elements.name.value,
-      phoneNumbe: form.elements.phoneNumber.value,
+      phoneNumber: form.elements.phoneNumber.value,
     };
     dispatch(addContact(contact));
 
